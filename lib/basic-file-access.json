@@ -10,7 +10,11 @@
         "Access-Control-Allow-Origin": null,
         "Cache-Control": "max-age=2592000",
         "Content-Security-Policy": null,
+        "Permissions-Policy": null,
         "Referrer-Policy": null,
+        "Cross-Origin-Embedder-Policy": null,
+        "Cross-Origin-Opener-Policy": null,
+        "Cross-Origin-Resource-Policy": null,
         "X-Content-Type-Options": "nosniff",
         "X-Powered-By": null,
         "X-Frame-Options": null,
@@ -30,7 +34,11 @@
         "responseHeaders": {
           "Cache-Control": "max-age=3600",
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       {
@@ -96,10 +104,12 @@
         "responseHeaders": {
           "Cache-Control": "max-age=0",
           "Content-Security-Policy": true,
+          "Permissions-Policy": true,
           "Referrer-Policy": "strict-origin-when-cross-origin",
-          "X-Frame-Options": "DENY",
-          "X-Ua-Compatible": "IE=edge",
-          "X-Xss-Protection": "1; mode=block"
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin",
+          "X-Frame-Options": "DENY"
         }
       },
       {
@@ -142,8 +152,12 @@
         "responseHeaders": {
           "Cache-Control": "max-age=31536000",
           "Content-Security-Policy": true,
-          "Content-Type": "text/javascript; charset=utf-8",
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin",
+          "Content-Type": "text/javascript; charset=utf-8"
         }
       },
       {
@@ -188,8 +202,12 @@
         "responseHeaders": {
           "Cache-Control": "max-age=31536000",
           "Content-Security-Policy": true,
-          "Content-Type": "text/javascript; charset=utf-8",
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin",
+          "Content-Type": "text/javascript; charset=utf-8"
         }
       },
       "test.mp4",
@@ -221,7 +239,11 @@
         "target": "test.pdf",
         "responseHeaders": {
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       {
@@ -238,7 +260,11 @@
         "responseHeaders": {
           "Cache-Control": "max-age=3600",
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       {
@@ -246,7 +272,11 @@
         "responseHeaders": {
           "Cache-Control": "max-age=3600",
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       {
@@ -263,7 +293,11 @@
         "responseHeaders": {
           "Access-Control-Allow-Origin": "*",
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       {
@@ -274,7 +308,11 @@
         "responseHeaders": {
           "Access-Control-Allow-Origin": "*",
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       "test.swf",
@@ -357,7 +395,11 @@
         "responseHeaders": {
           "Cache-Control": "max-age=0",
           "Content-Security-Policy": true,
-          "Referrer-Policy": "strict-origin-when-cross-origin"
+          "Permissions-Policy": true,
+          "Referrer-Policy": "strict-origin-when-cross-origin",
+          "Cross-Origin-Embedder-Policy": "require-corp",
+          "Cross-Origin-Opener-Policy": "same-origin",
+          "Cross-Origin-Resource-Policy": "same-origin"
         }
       },
       "test.xpi"
@@ -398,10 +440,11 @@
         "X-Content-Type-Options": "nosniff",
         "Cache-Control": "max-age=0",
         "Content-Security-Policy": true,
+        "Permissions-Policy": true,
         "Referrer-Policy": "strict-origin-when-cross-origin",
-        "X-Frame-Options": "DENY",
-        "X-Ua-Compatible": "IE=edge",
-        "X-Xss-Protection": "1; mode=block",
+        "Cross-Origin-Embedder-Policy": "require-corp",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "Cross-Origin-Resource-Policy": "same-origin",        "X-Frame-Options": "DENY",
         "Content-Type": "text/html; charset=utf-8",
         "Content-Encoding": "gzip"
       }
